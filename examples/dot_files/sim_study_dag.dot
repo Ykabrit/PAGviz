@@ -1,0 +1,21 @@
+digraph "sim_study_dag.txt" {
+bgcolor=OldLace;
+L1 [shape=ellipse];
+X [shape=box];
+L1 -> X [dir=forward, arrowtail=none, arrowhead=normal, style="", penwidth=1, color=black];
+L1 [shape=ellipse];
+Z2 [shape=box];
+L1 -> Z2 [dir=forward, arrowtail=none, arrowhead=normal, style="", penwidth=1, color=black];
+L2 [shape=ellipse];
+Y [shape=box];
+L2 -> Y [dir=forward, arrowtail=none, arrowhead=normal, style="", penwidth=1, color=black];
+L2 [shape=ellipse];
+Z2 [shape=box];
+L2 -> Z2 [dir=forward, arrowtail=none, arrowhead=normal, style="", penwidth=1, color=black];
+Z1 [shape=box];
+X [shape=box];
+Z1 -> X [dir=forward, arrowtail=none, arrowhead=normal, style="", penwidth=1, color=black];
+Z1 [shape=box];
+Y [shape=box];
+Z1 -> Y [dir=forward, arrowtail=none, arrowhead=normal, style="", penwidth=1, color=black];
+}

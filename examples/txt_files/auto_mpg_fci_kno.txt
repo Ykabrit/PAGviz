@@ -1,0 +1,19 @@
+Graph Nodes:
+mpg;cylinders;displacement;horsepower;weight;acceleration;modelyear;origin
+
+Graph Edges:
+1. horsepower --> acceleration pd nl
+2. modelyear --> mpg dd pl
+3. weight --> mpg pd nl
+4. weight --> origin pd nl
+5. acceleration <-> displacement
+6. cylinders o-> displacement
+7. displacement <-> origin
+8. horsepower <-> displacement
+9. horsepower <-> weight
+10. modelyear o-> displacement
+11. modelyear o-> origin
+12. modelyear o-> weight
+13. mpg <-> origin
+14. weight o-> displacement
+
